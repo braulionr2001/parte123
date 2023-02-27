@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Matriz Rotativa</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			margin: auto;
+		}
+		td {
+			border: 1px solid black;
+			padding: 10px;
+			text-align: center;
+			width: 50px;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+	</table>
+
+	<!-- Formulario con botones para rotar la matriz -->
+	<form method="POST" action="matriz.php">
+		<input type="submit" name="accion" value="90">
+		<input type="submit" name="accion" value="180">
+		<input type="submit" name="accion" value="270">
+		<input type="submit" name="accion" value="360">
+	</form>
+</body>
+</html>
